@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_label">Clipboard Sync — clipboard sharing</string>
+    <string name="accessibility_description">This service lets the app read the clipboard in the background and sync it with your other devices. No data leaves your devices — sharing happens only between them.</string>
+
+    <!-- Журнал движка -->
+    <string name="log_initialized">Init: %1$s (%2$s)</string>
+    <string name="log_acc_connected">Accessibility service connected</string>
+    <string name="log_started">Synchronization started</string>
+    <string name="log_stopped">Synchronization stopped</string>
+    <string name="log_copied">Copied — sent to %1$d device(s)</string>
+    <string name="log_received">Received from %1$s: %2$s</string>
+    <string name="log_test_sent">Test sent to %1$d device(s)</string>
+    <string name="log_self_node">Own node detected — closing connection</string>
+    <string name="log_duplicate">Duplicate connection — closing the new one</string>
+    <string name="log_connected">Connected: %1$s (%2$s)</string>
+    <string name="log_disconnected">Disconnected: %1$s</string>
+    <string name="log_disconnected_reason">Disconnected: %1$s (%2$s)</string>
+    <string name="log_tcp_server_error">TCP server: %1$s</string>
+    <string name="log_bt_server_started">Bluetooth: server started</string>
+    <string name="log_bt_connected_to">Bluetooth: connected to %1$s</string>
+    <string name="log_bt_error">Bluetooth: %1$s</string>
+    <string name="log_mdns_registered">mDNS: service announced (%1$s)</string>
+    <string name="log_mdns_register_failed">mDNS: registration failed (%1$d)</string>
+    <string name="log_mdns_lost">mDNS: device lost (%1$s)</string>
+    <string name="log_mdns_error">mDNS: %1$s</string>
+    <string name="log_found_wifi">Found on Wi-Fi: %1$s (%2$s)</string>
+    <string name="log_manual_added">Device added manually: %1$s</string>
+    <string name="log_clipboard_error">Clipboard: %1$s</string>
+
+    <!-- Статус -->
+    <string name="status_running">Running</string>
+    <string name="status_waiting">Waiting</string>
+    <string name="status_disabled">Disabled</string>
+    <string name="status_acc_ok">enabled ✓</string>
+    <string name="status_acc_missing">MISSING — enable the accessibility service</string>
+    <string name="status_wifi_on">connected ✓</string>
+    <string name="status_none">none</string>
+    <string name="status_bt_ready">ready ✓</string>
+    <string name="status_summary">State: %1$s\nClipboard access: %2$s\nWi-Fi: %3$s   Bluetooth: %4$s\n%5$s</string>
+    <string name="status_connections">Connections: %1$d</string>
+
+    <!-- Транспорты -->
+    <string name="transport_wifi">Wi-Fi</string>
+    <string name="transport_bt">Bluetooth</string>
+    <string name="transport_manual">manual</string>
+</resources>

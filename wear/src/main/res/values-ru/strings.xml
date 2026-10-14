@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Sync</string>
+    <string name="sync_switch">Синхронизация</string>
+    <string name="btn_accessibility">Доступность</string>
+    <string name="devices_header">Устройства</string>
+    <string name="devices_empty">Устройства не найдены</string>
+    <string name="ip_hint">IP устройства</string>
+    <string name="btn_add_ip">Добавить по IP</string>
+    <string name="btn_test">Проверка связи</string>
+    <string name="toast_enable_acc">Включите сервис доступности Clipboard Sync</string>
+    <string name="toast_find_acc">Включите Clipboard Sync в списке</string>
+    <string name="toast_test_sent">Тест отправлен</string>
+    <string name="received_from">Принято с устройства: %1$s</string>
+    <string name="hint_swipe">Свайп вниз — закрыть</string>
+    <string name="notif_channel_sync">Синхронизация буфера</string>
+    <string name="notif_channel_received">Принятый текст</string>
+    <string name="notif_channel_received_desc">Показывает принятый из буфера обмена текст</string>
+    <string name="notif_title">Clipboard Sync</string>
+    <string name="notif_text">Синхронизация буфера обмена активна</string>
+    <string name="notif_received_title">Принят буфер обмена</string>
+</resources>

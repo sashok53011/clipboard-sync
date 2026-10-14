@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Sync</string>
+    <string name="sync_switch">Sync</string>
+    <string name="btn_accessibility">Accessibility</string>
+    <string name="devices_header">Devices</string>
+    <string name="devices_empty">No devices found</string>
+    <string name="ip_hint">Device IP</string>
+    <string name="btn_add_ip">Add by IP</string>
+    <string name="btn_test">Test connection</string>
+    <string name="toast_enable_acc">Enable the Clipboard Sync accessibility service</string>
+    <string name="toast_find_acc">Enable Clipboard Sync in the list</string>
+    <string name="toast_test_sent">Test sent</string>
+    <string name="received_from">Received from device: %1$s</string>
+    <string name="hint_swipe">Swipe down to close</string>
+    <string name="notif_channel_sync">Clipboard synchronization</string>
+    <string name="notif_channel_received">Received text</string>
+    <string name="notif_channel_received_desc">Shows text received from the clipboard</string>
+    <string name="notif_title">Clipboard Sync</string>
+    <string name="notif_text">Clipboard synchronization is active</string>
+    <string name="notif_received_title">Clipboard received</string>
+</resources>

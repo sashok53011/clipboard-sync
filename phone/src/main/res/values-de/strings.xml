@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Sync</string>
+    <string name="sync_switch">Zwischenablage synchronisieren</string>
+    <string name="btn_accessibility">Accessibility-Einstellungen</string>
+    <string name="btn_battery">Akkuoptimierung deaktivieren</string>
+    <string name="devices_header">Geräte</string>
+    <string name="devices_empty">Keine Geräte gefunden. Sie erscheinen automatisch im selben WLAN oder unter den per Bluetooth gekoppelten Geräten.</string>
+    <string name="add_ip_label">Gerät per IP hinzufügen (falls Auto-Suche fehlschlägt):</string>
+    <string name="ip_hint">192.168.1.42</string>
+    <string name="btn_add">Hinzufügen</string>
+    <string name="btn_test">Verbindung testen</string>
+    <string name="log_header">Journal</string>
+    <string name="toast_enable_acc">Um die Zwischenablage im Hintergrund zu lesen, aktivieren Sie den Clipboard-Sync-Accessibility-Service</string>
+    <string name="toast_find_acc">Suchen Sie „Clipboard Sync“ in der Liste der Accessibility-Dienste und aktivieren Sie ihn</string>
+    <string name="toast_test_sent">Testnachricht gesendet</string>
+    <string name="toast_battery_failed">Akku-Einstellungen konnten nicht geöffnet werden</string>
+    <string name="toast_battery_ok">Akkuoptimierung bereits deaktiviert ✓</string>
+    <string name="notif_channel">Synchronisation</string>
+    <string name="notif_title">Clipboard Sync</string>
+    <string name="notif_text">Zwischenablage-Synchronisation ist aktiv</string>
+</resources>

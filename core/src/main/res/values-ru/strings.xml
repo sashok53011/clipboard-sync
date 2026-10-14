@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_label">Clipboard Sync — синхронизация буфера обмена</string>
+    <string name="accessibility_description">Сервис нужен, чтобы приложение могло читать буфер обмена в фоне и синхронизировать его с другими устройствами. Приложение не собирает и не отправляет данные наружу — обмен идёт только между вашими устройствами.</string>
+
+    <!-- Журнал движка -->
+    <string name="log_initialized">Инициализация: %1$s (%2$s)</string>
+    <string name="log_acc_connected">Сервис доступности подключён</string>
+    <string name="log_started">Синхронизация запущена</string>
+    <string name="log_stopped">Синхронизация остановлена</string>
+    <string name="log_copied">Скопировано — отправлено устройств: %1$d</string>
+    <string name="log_received">Принято от %1$s: %2$s</string>
+    <string name="log_test_sent">Тест отправлен устройствам: %1$d</string>
+    <string name="log_self_node">Обнаружен собственный узел — закрываем соединение</string>
+    <string name="log_duplicate">Дубликат соединения — закрываем новое</string>
+    <string name="log_connected">Подключено: %1$s (%2$s)</string>
+    <string name="log_disconnected">Отключено: %1$s</string>
+    <string name="log_disconnected_reason">Отключено: %1$s (%2$s)</string>
+    <string name="log_tcp_server_error">TCP-сервер: %1$s</string>
+    <string name="log_bt_server_started">Bluetooth: сервер запущен</string>
+    <string name="log_bt_connected_to">Bluetooth: подключено к %1$s</string>
+    <string name="log_bt_error">Bluetooth: %1$s</string>
+    <string name="log_mdns_registered">mDNS: сервис объявлен (%1$s)</string>
+    <string name="log_mdns_register_failed">mDNS: ошибка регистрации (%1$d)</string>
+    <string name="log_mdns_lost">mDNS: устройство потеряно (%1$s)</string>
+    <string name="log_mdns_error">mDNS: %1$s</string>
+    <string name="log_found_wifi">Найдено по Wi-Fi: %1$s (%2$s)</string>
+    <string name="log_manual_added">Добавлено устройство вручную: %1$s</string>
+    <string name="log_clipboard_error">Буфер обмена: %1$s</string>
+
+    <!-- Статус -->
+    <string name="status_running">Работает</string>
+    <string name="status_waiting">Ожидание</string>
+    <string name="status_disabled">Выключено</string>
+    <string name="status_acc_ok">включён ✓</string>
+    <string name="status_acc_missing">НЕТ — включите сервис доступности</string>
+    <string name="status_wifi_on">подключён ✓</string>
+    <string name="status_none">нет</string>
+    <string name="status_bt_ready">готов ✓</string>
+    <string name="status_summary">Состояние: %1$s\nДоступ к буферу: %2$s\nWi-Fi: %3$s   Bluetooth: %4$s\n%5$s</string>
+    <string name="status_connections">Соединений: %1$d</string>
+
+    <!-- Транспорты -->
+    <string name="transport_wifi">Wi-Fi</string>
+    <string name="transport_bt">Bluetooth</string>
+    <string name="transport_manual">вручную</string>
+</resources>

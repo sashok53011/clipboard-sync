@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Sync</string>
+    <string name="sync_switch">Синхронизация буфера обмена</string>
+    <string name="btn_accessibility">Настройки доступности</string>
+    <string name="btn_battery">Отключить оптимизацию батареи</string>
+    <string name="devices_header">Устройства</string>
+    <string name="devices_empty">Устройства не найдены. Они появятся автоматически в одной Wi-Fi сети или среди спаренных по Bluetooth устройств.</string>
+    <string name="add_ip_label">Добавить устройство по IP (если авто-поиск не находит):</string>
+    <string name="ip_hint">192.168.1.42</string>
+    <string name="btn_add">Добавить</string>
+    <string name="btn_test">Проверка связи</string>
+    <string name="log_header">Журнал</string>
+    <string name="toast_enable_acc">Для чтения буфера обмена в фоне нужен сервис доступности — включите его в настройках</string>
+    <string name="toast_find_acc">Найдите «Clipboard Sync» в списке сервисов доступности и включите его</string>
+    <string name="toast_test_sent">Тестовое сообщение отправлено</string>
+    <string name="toast_battery_failed">Не удалось открыть настройки батареи</string>
+    <string name="toast_battery_ok">Оптимизация батареи уже отключена ✓</string>
+    <string name="notif_channel">Синхронизация</string>
+    <string name="notif_title">Clipboard Sync</string>
+    <string name="notif_text">Синхронизация буфера обмена активна</string>
+</resources>

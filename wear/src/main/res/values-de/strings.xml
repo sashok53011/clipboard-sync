@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Sync</string>
+    <string name="sync_switch">Synchronisieren</string>
+    <string name="btn_accessibility">Accessibility</string>
+    <string name="devices_header">Geräte</string>
+    <string name="devices_empty">Keine Geräte gefunden</string>
+    <string name="ip_hint">Geräte-IP</string>
+    <string name="btn_add_ip">Per IP hinzufügen</string>
+    <string name="btn_test">Verbindung testen</string>
+    <string name="toast_enable_acc">Aktivieren Sie den Clipboard-Sync-Accessibility-Service</string>
+    <string name="toast_find_acc">Clipboard Sync in der Liste aktivieren</string>
+    <string name="toast_test_sent">Test gesendet</string>
+    <string name="received_from">Empfangen von Gerät: %1$s</string>
+    <string name="hint_swipe">Wischen zum Schließen</string>
+    <string name="notif_channel_sync">Zwischenablage-Synchronisation</string>
+    <string name="notif_channel_received">Empfangener Text</string>
+    <string name="notif_channel_received_desc">Zeigt Text aus der Zwischenablage</string>
+    <string name="notif_title">Clipboard Sync</string>
+    <string name="notif_text">Zwischenablage-Synchronisation ist aktiv</string>
+    <string name="notif_received_title">Zwischenablage empfangen</string>
+</resources>

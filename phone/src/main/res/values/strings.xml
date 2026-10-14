@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clipboard Sync</string>
+    <string name="sync_switch">Clipboard sync</string>
+    <string name="btn_accessibility">Accessibility settings</string>
+    <string name="btn_battery">Disable battery optimization</string>
+    <string name="devices_header">Devices</string>
+    <string name="devices_empty">No devices found. They will appear automatically on the same Wi-Fi network or among Bluetooth-paired devices.</string>
+    <string name="add_ip_label">Add a device by IP (if auto-discovery fails):</string>
+    <string name="ip_hint">192.168.1.42</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_test">Test connection</string>
+    <string name="log_header">Journal</string>
+    <string name="toast_enable_acc">To read the clipboard in the background, enable the Clipboard Sync accessibility service</string>
+    <string name="toast_find_acc">Find “Clipboard Sync” in the accessibility services list and enable it</string>
+    <string name="toast_test_sent">Test message sent</string>
+    <string name="toast_battery_failed">Could not open battery settings</string>
+    <string name="toast_battery_ok">Battery optimization already disabled ✓</string>
+    <string name="notif_channel">Synchronization</string>
+    <string name="notif_title">Clipboard Sync</string>
+    <string name="notif_text">Clipboard synchronization is active</string>
+</resources>

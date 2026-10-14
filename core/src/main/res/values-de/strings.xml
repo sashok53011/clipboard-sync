@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_label">Clipboard Sync — Zwischenablage synchronisieren</string>
+    <string name="accessibility_description">Dieser Service ermöglicht es der App, die Zwischenablage im Hintergrund zu lesen und mit Ihren anderen Geräten zu synchronisieren. Es werden keine Daten nach außen gesendet — der Austausch erfolgt nur zwischen Ihren Geräten.</string>
+
+    <!-- Journal -->
+    <string name="log_initialized">Initialisierung: %1$s (%2$s)</string>
+    <string name="log_acc_connected">Accessibility-Service verbunden</string>
+    <string name="log_started">Synchronisation gestartet</string>
+    <string name="log_stopped">Synchronisation gestoppt</string>
+    <string name="log_copied">Kopiert — an %1$s Gerät(e) gesendet</string>
+    <string name="log_received">Empfangen von %1$s: %2$s</string>
+    <string name="log_test_sent">Test an %1$s Gerät(e) gesendet</string>
+    <string name="log_self_node">Eigener Knoten erkannt — Verbindung wird geschlossen</string>
+    <string name="log_duplicate">Doppelte Verbindung — neue wird geschlossen</string>
+    <string name="log_connected">Verbunden: %1$s (%2$s)</string>
+    <string name="log_disconnected">Getrennt: %1$s</string>
+    <string name="log_disconnected_reason">Getrennt: %1$s (%2$s)</string>
+    <string name="log_tcp_server_error">TCP-Server: %1$s</string>
+    <string name="log_bt_server_started">Bluetooth: Server gestartet</string>
+    <string name="log_bt_connected_to">Bluetooth: verbunden mit %1$s</string>
+    <string name="log_bt_error">Bluetooth: %1$s</string>
+    <string name="log_mdns_registered">mDNS: Dienst angekündigt (%1$s)</string>
+    <string name="log_mdns_register_failed">mDNS: Registrierung fehlgeschlagen (%1$d)</string>
+    <string name="log_mdns_lost">mDNS: Gerät verloren (%1$s)</string>
+    <string name="log_mdns_error">mDNS: %1$s</string>
+    <string name="log_found_wifi">Im WLAN gefunden: %1$s (%2$s)</string>
+    <string name="log_manual_added">Gerät manuell hinzugefügt: %1$s</string>
+    <string name="log_clipboard_error">Zwischenablage: %1$s</string>
+
+    <!-- Status -->
+    <string name="status_running">Aktiv</string>
+    <string name="status_waiting">Wartet</string>
+    <string name="status_disabled">Deaktiviert</string>
+    <string name="status_acc_ok">aktiviert ✓</string>
+    <string name="status_acc_missing">FEHLT — Accessibility-Service aktivieren</string>
+    <string name="status_wifi_on">verbunden ✓</string>
+    <string name="status_none">keine</string>
+    <string name="status_bt_ready">bereit ✓</string>
+    <string name="status_summary">Status: %1$s\nZwischenablage: %2$s\nWLAN: %3$s   Bluetooth: %4$s\n%5$s</string>
+    <string name="status_connections">Verbindungen: %1$d</string>
+
+    <!-- Transporte -->
+    <string name="transport_wifi">WLAN</string>
+    <string name="transport_bt">Bluetooth</string>
+    <string name="transport_manual">manuell</string>
+</resources>
